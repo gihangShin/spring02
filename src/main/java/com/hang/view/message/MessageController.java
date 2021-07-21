@@ -66,6 +66,7 @@ public class MessageController {
 		System.out.println("메세지 수정 종료 시간 : " + sw.getTotalTimeMillis() + "ms");
 		return "redirect:getMessageList.do";
 	}
+	//test입니다.
 
 	@RequestMapping(value = "/getMessage.do")
 	public String getMessage(MessageVO vo, MessageDAO dao, Model m) {
